@@ -7,4 +7,7 @@ while times > 0:
 		print('登入成功')
 		break
 	else:
-		print('密碼錯誤，還有',times,'次機會')
+		if times>0:
+			print('密碼錯誤，還有',times,'次機會')
+		else:
+			print('密碼錯誤')
